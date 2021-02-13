@@ -1,14 +1,12 @@
 ---
 date: '3'
-title: 'OctoProfile'
-cover: './octoprofile.png'
-github: 'https://github.com/DnyanrajPatil/octoprofile'
-external: 'https://octoprofile.now.sh'
+title: 'Working progress..'
+cover: './wp.jpg'
+github: ''
+external: ''
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - C#
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+Page in working progress..

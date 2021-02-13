@@ -1,10 +1,10 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2020-10-12'
+title: 'Project Manager'
+company: 'Sachtron'
+location: 'Mumbai, India'
+range: 'November 2020 - Present'
+url: 'https://sachtron.com/'
 ---
 
 - Write modern, performant, maintainable code for a diverse array of client and internal projects
