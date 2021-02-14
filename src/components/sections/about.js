@@ -165,7 +165,7 @@ const About = () => {
             <p>Hello! I'm Dnyanraj, a software engineer based in Mumbai, India.</p>
 
             <p>
-              I have covered a wide area in <a href="https://www.epicor.com/">Epicor</a> and <a href="https://www.epicor.com/en/erp-systems/iscala/">iScala</a> ERP’s application to provide technical solutions. 
+              I have covered a wide area in <a href="https://www.epicor.com/">Epicor ERP</a> and <a href="https://www.epicor.com/en/erp-systems/iscala/">iScala</a> ERP’s application to provide technical solutions. 
               An efficient, proficient, and successful technical consultant and developer working on System Integration, Customizations, 
               Erp Reports, Database Scripting, Business Intelligence, Desktop application development, Implementations, and Upgrades 
               since July 2012. 

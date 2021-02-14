@@ -7,6 +7,10 @@ range: 'November 2020 - Present'
 url: 'https://sachtron.com/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Interact with customers/stakeholders and be the first level management contact for the client.
+- Documnet the requirement and get it confirmed with client/stakeholders.
+- Plan and execute knowledge transition, track & report progress.
+- Designing and implementing the software and system's architecture
+- Perform periodic code reviews to ensure the overall quality of the code in the organization
+- Analysing tech metrics, processes & code to troubleshoot problems & identify areas for improvement
+- Take the lead on projects and manage end to end project deliveries.

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { navLinks } from '@config';
 import { KEY_CODES } from '@utils';
 import { useOnClickOutside } from '@hooks';
+import { email } from '@config';
 
 const StyledMenu = styled.div`
   display: none;
@@ -260,7 +261,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/Dnyanraj Patil Resume.pdf" className="resume-link">
+            <a href={`mailto:${email}`} className="email-link">
               Resume
             </a>
           </nav>

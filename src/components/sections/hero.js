@@ -52,8 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the ERP.</h3>;
   const four = (
     <p>
-      I am expertise in Customization, Installation, Business Intelligence, Database Scripting, Business Process Management, and extensive experience 
-      in System integration of different modules for Epicor 9/10 ERP and iScala ERP.
+      I am expertise in Business Intelligence, Business Process Management,Customization, Database Scripting and extensive experience 
+      in System integration of different modules for ERP.
     </p>
   );
   

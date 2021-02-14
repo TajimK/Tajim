@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Working progress..'
+title: 'Page in Working progress'
 cover: './wp.jpg'
 github: ''
 external: ''
