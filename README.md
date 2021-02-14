@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://github.com/DnyanrajPatil/dnyanraj.in/blob/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Dnyanraj.in
+  Dnyanraj.in (Thank you [brittanychiang.com](https://brittanychiang.com) for website template)
 </h1>
 <p align="center">
   The fourth iteration of <a href="https://dnyanraj.com" target="_blank">dnyanraj.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
@@ -21,7 +21,7 @@ please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
 ### Credit for this website goes Brittany Chiang
 
-Thank you [brittanychiang.com](https://brittanychiang.com). Thanks!
+Thank you [brittanychiang.com](https://brittanychiang.com).
 
 ## 🛠 Installation & Set Up
 
