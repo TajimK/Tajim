@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Dnyanraj Patil',
     description:
-      'Dnyanraj Patil is pertise in Customization, Installation, Business Intelligence, Database Scripting, Business Process Management, and extensive experience in System integration of different modules for Epicor 9/10 ERP and iScala ERP.',
-    siteUrl: 'https://Dnyanraj.in', // No trailing slash allowed!
+      'I am expertise in Business Intelligence, Business Process Management,Customization, Database Scripting and extensive experience in System integration of different modules for ERP.',
+    siteUrl: 'https://dnyanraj.in', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@Dnyanraj',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'DnyanrajPatil',
-        short_name: 'DnyanrajPatil',
+        name: 'Dnyanraj',
+        short_name: 'Dnyanraj',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
