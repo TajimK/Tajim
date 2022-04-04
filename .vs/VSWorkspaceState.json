@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content\\featured\\HalcyonTheme",
-    "\\content\\featured\\OctoProfile",
-    "\\content\\featured\\SpotifyProfile",
-    "\\content\\posts\\docker-compose-error",
-    "\\content\\posts\\markdown-playground",
-    "\\content\\posts\\wordpress-publish-error"
+    "\\src",
+    "\\src\\components",
+    "\\src\\pages",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\LICENSE",
+  "SelectedNode": "\\src\\components\\head.js",
   "PreviewInSolutionExplorer": false
 }
