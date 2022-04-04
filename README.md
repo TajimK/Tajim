@@ -5,7 +5,7 @@
   Dnyanraj.in (Thank you <a href="https://brittanychiang.com target="_blank">Brittany chiang</a> for website template)
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://dnyanraj.com" target="_blank">dnyanraj.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The fourth iteration of <a href="https://dnyanraj.in" target="_blank">dnyanraj.in</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
