@@ -3,11 +3,13 @@ date: '2020-10-12'
 title: 'Project Manager'
 company: 'Sachtron'
 location: 'Mumbai, India'
-range: 'November 2020 - Present'
+range: 'November 2020 - November 2022'
 url: 'https://sachtron.com/'
 ---
 
-- Interact with customers/stakeholders and be the first level management contact for the client.
+- Consulting with business units to determine ERP requirements
+- Performing diagnostic tests and resolving issues
+- Installing and integrating ERP software/apps
 - Documnet the requirement and get it confirmed with client/stakeholders.
 - Plan and execute knowledge transition, track & report progress.
 - Designing and implementing the software and system's architecture

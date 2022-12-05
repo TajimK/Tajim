@@ -1,7 +1,7 @@
 ---
 date: '2022-10-01'
 title: 'Epicor Technical Consultant'
-company: 'Freelance'
+company: 'Epicor Freelance'
 location: 'Mumbai, India'
 range: 'October 2022 - Present'
 url: 'https://www.epicor.com/en-in/'
@@ -12,3 +12,5 @@ url: 'https://www.epicor.com/en-in/'
 - I have participated in Kinetic Epicor ERP (Epicor 9/10) upgrades and iScala ERP upgrades including Data Cleaning, Data Upgrade, and VBA Upgrades. In the iScala environment, I have implemented Business Intelligence and Report Server.
 
 - A specialist in Customization, Advanced Dashboards, BPMs, Rest APIs, Epicor functions, BAQ, BAQ reports, Service Connect, and DMT for Kinetic Epicor and Epicor 9/10 ERP.
+
+- Developed integrations between Epicor and other core business systems; specialised in Epicor Service connect
