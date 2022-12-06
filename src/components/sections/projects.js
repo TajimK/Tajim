@@ -231,7 +231,7 @@ const Projects = () => {
                       {PlatformSkills && (
                         <ul className="project-PlatformSkills-list">
                           Platform and Skills: {PlatformSkills.map((PlatformSkills, i) => (
-                            <li key={i}>{PlatformSkills},</li>
+                            <li key={i}>-{PlatformSkills}</li>
                           ))}
                         </ul>
                       )}
