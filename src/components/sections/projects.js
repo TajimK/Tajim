@@ -138,6 +138,26 @@ const StyledProject = styled.div`
       }
     }
   }
+
+    .Otherlist {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+
+    li {
+      font-family: var(--font-mono);
+      font-size: var(--fz-xxs);
+      line-height: 1.75;
+
+      &:not(:last-of-type) {
+        margin-right: 15px;
+      }
+    }
+  }
 `;
 
 const Projects = () => {
@@ -156,6 +176,9 @@ const Projects = () => {
               title
               PlatformSkills
               project
+              Role
+              TeamStrength
+              months
             }
             html
           }
@@ -182,8 +205,8 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
+      <h2 ref={revealTitle}>ERP Projects on which I worked</h2>
+      <h6 className="Otherlist">Due to confidentiality concerns, names of clients cannot be disclosed.</h6>
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
       </Link>
@@ -192,7 +215,7 @@ const Projects = () => {
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { project, title, PlatformSkills } = frontmatter;
+            const { project, title, PlatformSkills,Role,TeamStrength,months } = frontmatter;
 
             return (
               <CSSTransition
@@ -226,11 +249,16 @@ const Projects = () => {
                         dangerouslySetInnerHTML={{ __html: html }}
                       />
                     </header>
-
+                    
                     <footer>
+                       <div className="Otherlist">
+                          <li>Role: {Role}</li>
+                          <li>Team Strength: {TeamStrength}</li>
+                          <li>Duration : {months} months</li>
+                      </div>
                       {PlatformSkills && (
                         <ul className="project-PlatformSkills-list">
-                          Platform and Skills: {PlatformSkills.map((PlatformSkills, i) => (
+                          <li>Platform and Skills: </li>{PlatformSkills.map((PlatformSkills, i) => (
                             <li key={i}>-{PlatformSkills}</li>
                           ))}
                         </ul>

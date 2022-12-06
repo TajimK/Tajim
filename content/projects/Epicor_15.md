@@ -5,6 +5,7 @@ title: 'Leading distributor of industrial spare parts and maintenance products i
 Role: 'Epicor Technical Consultant'
 TeamStrength: '4'
 PlatformSkills:
+
   - BPM
   - Sales Integration using Service Connect
 ---

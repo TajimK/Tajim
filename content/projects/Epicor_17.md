@@ -5,6 +5,7 @@ title: 'One of the largest sign board building companies in the US'
 Role: 'Epicor Technical Consultant'
 TeamStrength: '5'
 PlatformSkills:
+
   - Customization
   - Dashboard
   - BAQ
