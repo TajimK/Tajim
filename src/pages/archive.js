@@ -188,6 +188,7 @@ const ArchivePage = ({ location, data }) => {
                               {''}
                               {i !== PlatformSkills.length - 1 && <span className="separator">&middot;</span>}
                             </span>
+                            
                           ))}
                       </td>
 
