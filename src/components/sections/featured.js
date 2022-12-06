@@ -115,6 +115,7 @@ const StyledProject = styled.div`
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
+    text-align: justify;
 
     @media (max-width: 768px) {
       padding: 20px 0;
@@ -259,7 +260,7 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 700, traceSVG: { color: "#64ffda" }) {
+                  fluid(maxWidth: 2500,quality: 100, traceSVG: { color: "#64ffda" }) {
                     ...GatsbyImageSharpFluid_withWebp_tracedSVG
                   }
                 }
