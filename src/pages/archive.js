@@ -154,74 +154,47 @@ const ArchivePage = ({ location, data }) => {
           <table>
             <thead>
               <tr>
-                <th>Year</th>
-                <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
-                <th>Link</th>
+                <th>Project</th>
+                <th>Months</th>
+                <th>Title</th> 
+                <th>Role</th>
+                <th>Team Strength</th>
+                <th className="hide-on-mobile">Platform and Skills</th>                
               </tr>
             </thead>
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
                   const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
+                    project,
+                    months,
                     title,
-                    tech,
-                    company,
+                    Role,
+                    TeamStrength,
+                    PlatformSkills,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
-                      <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
-
+                      <td className="title">{project}</td>
+                      <td className="title">{months}</td>
                       <td className="title">{title}</td>
-
-                      <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
-                      </td>
-
+                      <td className="title">{Role}</td>
+                      <td className="title">{TeamStrength}</td>
                       <td className="tech hide-on-mobile">
-                        {tech.length > 0 &&
-                          tech.map((item, i) => (
+                        {PlatformSkills.length > 0 &&
+                          PlatformSkills.map((item, i) => (
                             <span key={i}>
                               {item}
                               {''}
-                              {i !== tech.length - 1 && <span className="separator">&middot;</span>}
+                              {i !== PlatformSkills.length - 1 && <span className="separator">&middot;</span>}
                             </span>
                           ))}
                       </td>
 
-                      <td className="links">
-                        <div>
-                          {external && (
-                            <a href={external} aria-label="External Link">
-                              <Icon name="External" />
-                            </a>
-                          )}
-                          {github && (
-                            <a href={github} aria-label="GitHub Link">
-                              <Icon name="GitHub" />
-                            </a>
-                          )}
-                          {ios && (
-                            <a href={ios} aria-label="Apple App Store Link">
-                              <Icon name="AppStore" />
-                            </a>
-                          )}
-                          {android && (
-                            <a href={android} aria-label="Google Play Store Link">
-                              <Icon name="PlayStore" />
-                            </a>
-                          )}
-                        </div>
-                      </td>
+
                     </tr>
                   );
-                })}
+                }).sort((a, b) => (a[1] > b[1] ? 1 : -1))}
             </tbody>
           </table>
         </StyledTableContainer>
@@ -245,14 +218,12 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            date
+            project
+            months
             title
-            tech
-            github
-            external
-            ios
-            android
-            company
+            Role
+            TeamStrength
+            PlatformSkills
           }
           html
         }

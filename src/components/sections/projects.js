@@ -119,7 +119,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-tech-list {
+  .project-PlatformSkills-list {
     display: flex;
     align-items: flex-end;
     flex-grow: 1;
@@ -154,9 +154,8 @@ const Projects = () => {
           node {
             frontmatter {
               title
-              tech
-              github
-              external
+              PlatformSkills
+              project
             }
             html
           }
@@ -193,7 +192,7 @@ const Projects = () => {
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { github, external, title, tech } = frontmatter;
+            const { project, title, PlatformSkills } = frontmatter;
 
             return (
               <CSSTransition
@@ -214,18 +213,10 @@ const Projects = () => {
                         <div className="folder">
                           <Icon name="Folder" />
                         </div>
-                        <div className="project-links">
-                          {github && (
-                            <a href={github} aria-label="GitHub Link">
-                              <Icon name="GitHub" />
-                            </a>
-                          )}
-                          {external && (
-                            <a href={external} aria-label="External Link" className="external">
-                              <Icon name="External" />
-                            </a>
-                          )}
+                        <div className="folder">
+                          {project}
                         </div>
+
                       </div>
 
                       <h3 className="project-title">{title}</h3>
@@ -237,10 +228,10 @@ const Projects = () => {
                     </header>
 
                     <footer>
-                      {tech && (
-                        <ul className="project-tech-list">
-                          {tech.map((tech, i) => (
-                            <li key={i}>{tech}</li>
+                      {PlatformSkills && (
+                        <ul className="project-PlatformSkills-list">
+                          Platform and Skills: {PlatformSkills.map((PlatformSkills, i) => (
+                            <li key={i}>{PlatformSkills},</li>
                           ))}
                         </ul>
                       )}
