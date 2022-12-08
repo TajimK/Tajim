@@ -5,8 +5,11 @@ cover: './StockTradeInventoryManagement02.JPG'
 github: ''
 external: ''
 tech:
-  - C#
-  - SQL 2017
+  - ASP.NET
+  - HTML
+  - CSS
+  - C# 
+  - SQL Server
 showInProjects: true
 ---
 
