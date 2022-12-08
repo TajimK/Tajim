@@ -232,7 +232,7 @@ const StyledProject = styled.div`
       }
     }
 
-    .img {
+    .img1 {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1) brightness(90%);
