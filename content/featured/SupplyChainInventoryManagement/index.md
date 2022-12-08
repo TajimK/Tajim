@@ -13,4 +13,4 @@ tech:
 showInProjects: true
 ---
 
-This inventory management dashboard displays inventory days of supply, backorder rate, and other information. They show the effectiveness of storage.The Back Order Rate and Percentage of Out of Stock cards demonstrate how well the company serves customer demand. The Product Stock Details graphic displays warehouse and ordered units as well.
+This inventory management dashboard displays inventory days of supply, backorder rate, and other details. They show the effectiveness of storage.The Back Order Rate and Percentage of Out of Stock cards demonstrate how well the company serves customer demand. The Product Stock Details graphic displays warehouse and ordered units as well.
