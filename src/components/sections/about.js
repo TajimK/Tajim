@@ -80,7 +80,13 @@ const StyledPic = styled.div`
       }
     }
 
-
+    .img1 {
+      position: relative;
+      border-radius: var(--border-radius);
+      mix-blend-mode: multiply;
+      filter: grayscale(100%) contrast(1);
+      transition: var(--transition);
+    }
 
     &:before,
     &:after {
