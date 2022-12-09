@@ -207,8 +207,8 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>ERP Projects on which I worked</h2>
       <h6 className="Otherlist">Due to confidentiality concerns, names of clients cannot be disclosed.</h6>
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+      <Link className="inline-link archive-link" to="/ERPProjectsIworkedon" ref={revealArchiveLink}>
+        List view of Projects
       </Link>
 
       <TransitionGroup className="projects-grid">

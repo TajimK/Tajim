@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Dnyanraj Patil',
+    title: 'Dnyanraj Patil : Epicor Technical Consultant',
     description:
       'I am expertise in Business Intelligence, Business Process Management,Customization, Database Scripting and extensive experience in System integration of different modules for ERP.',
     siteUrl: 'https://dnyanraj.in', // No trailing slash allowed!
