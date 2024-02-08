@@ -58,16 +58,11 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the ERP.</h3>;
   const four = (
     <p>
-      As a professional, I hold the qualification of Master of Computer Applications (MCA). It has been more than 10 years since I have been working in the ERP and related software industry.
+     
     </p>
   );
 
-    const four1 = (
-    <p>
-      Applied my experience when it comes to Kinetic Epicor ERP (Epicor 9/10) and iScala ERP Customizations, System Integration, Service Connect, Implementations, Upgrade, SSRS Reports, Crystal Reports, Custom development, Technical consulting, and support.
-      In addition, I have provided support and solutions to Fortune 500 companies and government organizations worldwide on over 25+ projects/clients. 
-    </p>
-  );
+    
 
   
   
