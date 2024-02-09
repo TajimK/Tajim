@@ -14,6 +14,4 @@ tech:
 showInProjects: true
 ---
 
-Epicor Application Studio Foundations
-Issued by Epicor
-Individuals who achieve this Application Studio Certification demonstrate an understanding of features and options included with Epicor Application Studio. Badge earners will be able to demonstrate and discuss core concepts and approaches to using configurations and personalizations, as well as basic and extended UI modifications
+Excited to announce my achievement of the Epicor Application Studio Foundations certification! 🚀 Delving deep into Epicor's powerful tools opens doors to enhanced business solutions. Eager to connect with peers and share insights. Let's link up and explore new horizons together!

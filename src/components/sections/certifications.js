@@ -26,7 +26,7 @@ const StyledProject = styled.div`
 
   &:nth-of-type(odd) {
     .project-content {
-      grid-column: 7 / -1;
+      grid-column: 4 / -1;
       text-align: right;
 
       @media (max-width: 1080px) {
@@ -57,7 +57,7 @@ const StyledProject = styled.div`
       margin-right: -10px;
     }
     .project-image {
-      grid-column: 1 / 5;
+      grid-column: 1 / 4;
 
       @media (max-width: 768px) {
         grid-column: 1 / -1;
