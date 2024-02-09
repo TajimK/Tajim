@@ -164,20 +164,34 @@ const About = () => {
           <div>
             <p>Hello! I'm Dnyanraj, a software engineer based in Mumbai, India.</p>
 
-            <p>
-              I have covered a wide area in <a href="https://www.epicor.com/">Epicor ERP</a> and <a href="https://www.epicor.com/en/erp-systems/iscala/">iScala</a> ERP’s application to provide technical solutions. 
-              An efficient, proficient, and successful technical consultant and developer working on System Integration, Customizations, 
-              Erp Reports, Database Scripting, Business Intelligence, Desktop application development, Implementations, and Upgrades 
-              since July 2012. 
-            </p>
+
 
             <p>
-              I have experience in multi-country work environments for various clients including Fortune 500 clients.
+My career in the ERP and related software industry has been marked by a dedication to 
+delivering exceptional service and providing tailored solutions to clients. 
+With a Master of Computer Applications (MCA) and Executive PG Programme in Software Development Full Stack from iiiT Bangalore, 
+I have acquired a strong educational foundation that has been augmented by over 11+ years of professional experience.
+
+
             </p>
 
-            <p>Here are a few technologies I've been working with:</p>
+                        <p>
+
+Throughout my career, I have focused on honing my expertise in <a href="https://www.epicor.com/">Epicor ERP</a> and <a href="https://www.epicor.com/en/erp-systems/iscala/">iScala</a>. These systems have been the centerpiece of my work, and I have gained extensive knowledge in 
+various aspects such as Customizations, System Integration, Service Connect, Implementations, Upgrades, SSRS Reports, 
+Crystal Reports, Custom development, Technical consulting, and support.
+
+            </p>
+
+
           </div>
-          <br></br>
+
+
+<div>
+
+</div>
+          
+         {/* <br></br>
           <div className="inner">
             
             <p>ERP Modules:
@@ -195,7 +209,7 @@ const About = () => {
           </div>
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+  </ul>*/}
 
 
         </StyledText>

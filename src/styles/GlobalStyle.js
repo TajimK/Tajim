@@ -172,6 +172,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 80px);
   }
 
+    .big-heading1 {
+    margin: 0;
+    font-size: clamp(10px, 8vw, 50px);
+  }
+
   .medium-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 60px);
