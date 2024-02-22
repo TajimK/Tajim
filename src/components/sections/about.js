@@ -134,7 +134,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C# and VB.NET'
+ /* const skills = ['C# and VB.NET'
                   , 'Progress 4GL(ABL)'
                   , 'JavaScript and HTML & (S)CSS'
                   , 'Epicor 9/10 ERP'
@@ -153,7 +153,7 @@ const About = () => {
                       , 'Material Management'
                       , 'Service Management'
                       , 'Job Management'
-                      , 'Payroll'];
+                      , 'Payroll'];*/
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
