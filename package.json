@@ -2,10 +2,10 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Dnyanraj Patil <dnyanraj@dnyanraj.in>",
+  "author": "Tajim Khot <tajimkhot@tajimkhot.in>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DnyanrajPatil"
+    "url": "https://github.com/TajimKhot"
   },
   "keywords": [
     "gatsby"

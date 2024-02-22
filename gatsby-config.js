@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Dnyanraj Patil : Epicor Technical Consultant',
+    title: 'Tajim Khot : Epicor Technical Consultant',
     description:
       'I am expertise in Business Intelligence, Business Process Management,Customization, Database Scripting and extensive experience in System integration of different modules for ERP.',
-    siteUrl: 'https://dnyanraj.in', // No trailing slash allowed!
+    siteUrl: 'https://Tajim.in', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@Dnyanraj',
+    twitterUsername: '@Tajim',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Dnyanraj',
-        short_name: 'Dnyanraj',
+        name: 'Tajim',
+        short_name: 'Tajim',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

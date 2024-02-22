@@ -1,11 +1,11 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/DnyanrajPatil/dnyanraj.in/blob/master/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/TajimKhot/Tajim.in/blob/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Dnyanraj.in (Thank you <a href="https://brittanychiang.com target="_blank">Brittany chiang</a> for website template)
+  Tajim.in (Thank you <a href="https://brittanychiang.com target="_blank">Brittany chiang</a> for website template)
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://dnyanraj.in" target="_blank">dnyanraj.in</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The fourth iteration of <a href="https://Tajim.in" target="_blank">Tajim.in</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
@@ -13,7 +13,7 @@
   </a>
 </p>
 
-![demo](https://github.com/DnyanrajPatil/dnyanraj.in/blob/master/src/images/demo.png)
+![demo](https://github.com/TajimKhot/Tajim.in/blob/master/src/images/demo.png)
 
 ## 🚨 Forking this repo (please read!)
 
