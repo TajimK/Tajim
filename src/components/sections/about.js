@@ -169,8 +169,8 @@ const About = () => {
             <p>
 My career in the ERP and related software industry has been marked by a dedication to 
 delivering exceptional service and providing tailored solutions to clients. 
-With a Master of Computer Applications (MCA) and Executive PG Programme in Software Development Full Stack from iiiT Bangalore, 
-I have acquired a strong educational foundation that has been augmented by over 11+ years of professional experience.
+With a B.Eng. Computer Engineering. I bring over 8 years of dedicated experience in the ERP and software industry. 
+As a seasoned Epicor Technical Consultant, my expertise revolves around Kinetic Epicor ERP (Epicor 9/10) and iScala ERP solutions.
 
 
             </p>
