@@ -162,7 +162,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Dnyanraj, a software engineer based in Mumbai, India.</p>
+            <p>Hello! I'm Tajim, a software engineer based in Mumbai, India.</p>
 
 
 
